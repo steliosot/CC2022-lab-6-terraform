@@ -14,6 +14,11 @@ variable "region" {
   description = "The region to host the cluster in."
 }
 
+variable "zone" {
+  type        = string
+  description = "The zone to host the cluster in."
+}
+
 variable "name" {
   type        = string
   description = "The name of the env/workspace."
